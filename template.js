@@ -1,7 +1,7 @@
-
-# weather
+const template = `
+# {{title}}
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![GitHub top language](https://img.shields.io/github/languages/top/kev-luo/weather-dashboard)
+![GitHub top language](https://img.shields.io/github/languages/top/{{githubUserName}}/{{repoName}})
 
 ## Description
 
@@ -25,5 +25,8 @@ Licensed under the [MIT](https://github.com/microsoft/vscode/blob/master/LICENSE
 ## Tests
 
 ## Questions
-* [Github](https://github.com/kev-luo/)
-* [kvn.luo@gmail.com](kvn.luo@gmail.com)
+* [Github](https://github.com/{{githubUserName}}/)
+* [{{email}}]({{email}})
+`;
+
+module.exports = template;

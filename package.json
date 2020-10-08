@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "inquirer": "^7.3.3",
-    "mustache": "^4.0.1"
+    "inquirer": "^7.3.3"
   },
   "devDependencies": {},
   "scripts": {

@@ -1,32 +1,41 @@
-const template = `
-# {{title}}
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![GitHub top language](https://img.shields.io/github/languages/top/{{githubUserName}}/{{repoName}})
+function template(data) {
+return `
+# ${data.repoName}
+[![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-yellow.svg)](https://opensource.org/licenses/${data.license})
+![GitHub top language](https://img.shields.io/github/languages/top/${data.githubUserName}/${data.repoName})
 
 ## Description
+${data.description}
 
 ## Table of Contents
-* Installation
-* Usage
-* License
-* Contributing
-* Tests
-* Questions
+
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)
 
 ## Installation
+    ${data.dependencies}
 
 ## Usage
+${data.usage}
 
 ## License
-Licensed under the [MIT](https://github.com/microsoft/vscode/blob/master/LICENSE.txt) License.
+Licensed under the [${data.license}](https://opensource.org/licenses/${data.license}) License.
 
 ## Contributing
+${data.contributing}
 
 ## Tests
+    ${data.tests}
+
 
 ## Questions
-* [Github](https://github.com/{{githubUserName}}/)
-* [{{email}}]({{email}})
+![github profile pic](https://github.com/${data.githubUserName}.png?size=100)
+* [${data.email}](${data.email})
 `;
+} 
 
 module.exports = template;

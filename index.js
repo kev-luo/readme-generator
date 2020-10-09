@@ -1,5 +1,5 @@
 const fs = require('fs');
-const template = require('./templateUpdate');
+const template = require('./template');
 const inquirer = require('inquirer');
 
 const questions = [
@@ -52,7 +52,7 @@ const questions = [
 
 const createReadMe = () => {
     inquirer.prompt(questions).then((response) => {
-        fs.writeFile('readmeGood.md',template(response), (err) => {
+        fs.writeFile('readme.md',template(response), (err) => {
             if (err) throw err;
             console.log('yeet');
         })

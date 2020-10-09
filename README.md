@@ -1,10 +1,10 @@
 
-# weather-dashboard
-[![License: poij](https://img.shields.io/badge/License-poij-yellow.svg)](https://opensource.org/licenses/poij)
-![GitHub top language](https://img.shields.io/github/languages/top/kev-luo/weather-dashboard)
+# readme-generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub top language](https://img.shields.io/github/languages/top/kev-luo/readme-generator)
 
 ## Description
-jfa
+
 
 ## Table of Contents
 
@@ -16,19 +16,19 @@ jfa
 * [Questions](#Questions)
 
 ## Installation
-    j
+    
 
 ## Usage
-j
+
 
 ## License
-Licensed under the [poij](https://opensource.org/licenses/poij) License.
+Licensed under the [MIT](https://opensource.org/licenses/MIT) License.
 
 ## Contributing
-j
+
 
 ## Tests
-    j
+    
 
 
 ## Questions
